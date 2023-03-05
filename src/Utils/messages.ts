@@ -794,7 +794,7 @@ export const assertMediaContent = (content: proto.IMessage | null | undefined) =
 
 	return mediaContent
 }
-const generateContextInfo = () => {
+/*const generateContextInfo = () => {
 	const info: proto.IMessageContextInfo = {
 		deviceListMetadataVersion: 2,
 		deviceListMetadata: { }
@@ -805,7 +805,7 @@ const generateContextInfo = () => {
 /**
  * this is an experimental patch to make buttons work
  * Don't know how it works, but it does for now
- */
+ *./
 export const patchMessageForMdIfRequired = (message: proto.IMessage) => {
 	const requiresPatch = !!(
 		message.buttonsMessage
@@ -824,4 +824,4 @@ export const patchMessageForMdIfRequired = (message: proto.IMessage) => {
 	}
 
 	return message
-}
+}*/
